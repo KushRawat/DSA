@@ -1,4 +1,4 @@
-def maxPairWiseNaive(digits, n):
+def maxPairwiseNaive(digits, n):
 
     product = 0
 
@@ -11,4 +11,4 @@ def maxPairWiseNaive(digits, n):
 n = int(input())
 digits = [int(x) for x in input().split()]
 
-print(maxPairWiseNaive(digits, n))
+print(maxPairwiseNaive(digits, n))
