@@ -9,6 +9,6 @@ def maxPairwiseNaive(digits, n):
     return product
 
 n = int(input())
-digits = [int(x) for x in input().split()]
+digits = [int(x) for x in input().split('-')]
 
 print(maxPairwiseNaive(digits, n))

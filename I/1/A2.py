@@ -7,4 +7,4 @@ random.seed(mySeed)         # used to customize the initial random number which 
 
 print(n)
 
-print('_'.join([str(random.randint(1,1000)) for i in range (n)]))
+print('-'.join([str(random.randint(1,1000)) for i in range (n)]))

@@ -11,11 +11,11 @@ for i in range(tests):
 
     print(f"Test #{i}")
     #run the generator
-    os.system(f"A2.py {n} {i} > input.txt")
+    os.system(f"python A2.py {n} {i} > input.txt")
     #run the model solution
-    os.system("maxPairwiseNaive.py < stressInput.txt > model.txt")
+    os.system("python maxPairwiseNaive.py < input.txt > model.txt")
     #run the main solution
-    os.system("maxPairwiseOptimal.py < stressInput.txt > main.txt")
+    os.system("python maxPairwiseOptimal.py < input.txt > main.txt")
 
     #read the ouput of model solution
     with open("model.txt") as f:
